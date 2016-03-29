@@ -1,0 +1,22 @@
+NUGET
+  remote: https://www.nuget.org/api/v2
+  specs:
+    FSharp.Control.Reactive (3.2)
+      FSharp.Core (>= 3.1.2)
+      Rx-Core (>= 2.2.5)
+      Rx-Interfaces (>= 2.2.5)
+      Rx-Linq (>= 2.2.5)
+    FSharp.Core (4.0.0.1)
+    FSharp.Data (2.2.5)
+      Zlib.Portable (>= 1.10) - framework: portable-net40+sl50+wp80+win80
+    Http.fs (1.5.1)
+    Newtonsoft.Json (8.0.3)
+    Rx-Core (2.2.5)
+      Rx-Interfaces (>= 2.2.5)
+    Rx-Interfaces (2.2.5)
+    Rx-Linq (2.2.5)
+      Rx-Core (>= 2.2.5)
+      Rx-Interfaces (>= 2.2.5)
+    Suave (1.1.2)
+      FSharp.Core (>= 3.1.2.5)
+    Zlib.Portable (1.11) - framework: portable-net40+sl50+wp80+win80
