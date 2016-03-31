@@ -48,8 +48,15 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="AssemblyInfo.fs" />
-    <Compile Include="Program.fs" />
     <None Include="App.config" />
+    <Compile Include="Http.fs" />
+    <Compile Include="GitHub.fs" />
+    <Compile Include="ObservableExtensions.fs" />
+    <Compile Include="Gateway.fs" />
+    <Compile Include="ApiGateway.fs" />
+    <Compile Include="Program.fs" />
+    <None Include="repos.json" />
+    <None Include="user.json" />
   </ItemGroup>
   <PropertyGroup>
     <MinimumVisualStudioVersion Condition="'$(MinimumVisualStudioVersion)' == ''">11</MinimumVisualStudioVersion>
